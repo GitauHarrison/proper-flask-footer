@@ -4,15 +4,15 @@ I have kept it minimal, only showing two pages:
 
 **First page**:
 
-Footer at the bottom of the page, leaving space between it and short content
+Footer beneath the content, even when the content is taller than hte viewport.
 
-![Short Content with Footer](app/static/images/short_content.png)
+![Taller Content with Footer](app/static/images/taller_content.png)
 
 **Second page**:
 
-Footer beneath the content, even when the content is taller than hte viewport
+Footer at the bottom of the page, leaving space between it and short content.
 
-![Taller Content with Footer](app/static/images/taller_content.png)
+![Short Content with Footer](app/static/images/short_content.png)
 
 ### See it Yourself
 Download project:
@@ -44,4 +44,4 @@ Run application:
 $ flask run # check your localhost
 ```
 
-Learn how to view localhost project on another mobile device [here](https://github.com/GitauHarrison/notes/blob/master/localhost_testing.md).
+Learn how to view your localhost project on another mobile device [here](https://github.com/GitauHarrison/notes/blob/master/localhost_testing.md).
