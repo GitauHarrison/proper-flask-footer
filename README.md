@@ -14,6 +14,28 @@ Footer at the bottom of the page, leaving space between it and short content.
 
 ![Short Content with Footer](app/static/images/short_content.png)
 
+
+## Using CSS
+
+```css
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+```
+
+- We begin by making the page as long as the screen height.
+- Set the `body`'s display to `flex` and flex its direction to `column`
+
+
+```css
+footer{
+    margin-top: auto;
+}
+```
+- To stick the footer to the bottom, set its top margin to `auto`.
+
 ### See it Yourself
 Download project:
 
